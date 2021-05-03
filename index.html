@@ -23,7 +23,7 @@
                             <option value="9">9</option>
                             <option value="10">10</option>
                             </select><br/>
-            Interest : <input type="range" id="rate" min="minval" max="maxval" value="default_val">
+            Interest : <input type="range" id="rate" min="minval" max="maxval" value="default_val" onchange="updateRate()">
             <span id="rate_val">10.25%</span><br>
             <button onclick="compute()">Compute Interest</button>
             <span id="result"></span>
