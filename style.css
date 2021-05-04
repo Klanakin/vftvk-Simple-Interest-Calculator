@@ -1,15 +1,21 @@
 body {background-color:black; font-family:arial; color:white}
 h1{color:grey; font-family:verdana}
-.maindiv{
+.mainDiv {
     align:center;
     background-color:white;
     border-radius:25px;
     color:black;
     width:300px;
     padding:20px;
+    margin-bottom:5px;
+}
+.inputDiv {
+    aligh:center;
+    margin-bottom:1.5rem;
+    margin-left: 5.25rem;
 }
 .alert-focus:focus {
-    background:red;
+    background:crimson;
     color:black;
 }
 .alert-focus:not(:focus){
@@ -23,6 +29,14 @@ h1{color:grey; font-family:verdana}
 .grey-focus:not(:focus) {
     background:white;
     color:black;
+}
+.textHighlight {
+    background-color:yellow;
+    color:black;
+}
+.copyrightMessage {
+    font-size: 0.5rem;
+    color:lightgrey;
 }
 
 
