@@ -6,14 +6,18 @@ function compute(){
     var year = new Date().getFullYear() + parseInt(years);
     var amount = interest;
 
+    //Set default highlight in the Amount input field
     document.getElementById("principal").setAttribute("class", "grey-focus");
     
+    /* Asks user to enter a positive number in case the input is zero or negative
+       and highlights the Amount input field red to attract user's attention */
     if (principal <= 0) {
         alert("Enter a positive number");
         document.getElementById("principal").setAttribute("class", "alert-focus");
         document.getElementById("principal").focus();
     }
     
+    //Prints out the result after received satisfying input
     if (principal > 0) {
         document.getElementById("result").innerHTML=
             "If you deposit " + "<span class='textHighlight'>" + principal + "</span>" +

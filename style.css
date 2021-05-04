@@ -1,5 +1,5 @@
-body {background-color:black; font-family:arial; color:white}
-h1{color:grey; font-family:verdana}
+body { background-color:black; font-family:arial; color:white }
+h1 { color:grey; font-family:verdana }
 .mainDiv {
     align:center;
     background-color:white;
@@ -14,29 +14,14 @@ h1{color:grey; font-family:verdana}
     margin-bottom:1.5rem;
     margin-left: 5.25rem;
 }
-.alert-focus:focus {
-    background:crimson;
-    color:black;
-}
-.alert-focus:not(:focus){
-    background:white;
-    color:black;
-}
-.grey-focus:focus {
-    background:lightgrey;
-    color:black;
-}
-.grey-focus:not(:focus) {
-    background:white;
-    color:black;
-}
-.textHighlight {
-    background-color:yellow;
-    color:black;
-}
-.copyrightMessage {
-    font-size: 0.5rem;
-    color:lightgrey;
-}
+
+.alert-focus:focus { background:crimson; color:black; }
+.alert-focus:not(:focus) { background:white; color:black; }
+
+.grey-focus:focus { background:lightgrey; color:black; }
+.grey-focus:not(:focus) { background:white; color:black; }
+
+.textHighlight { background-color:yellow;color:black; }
+.copyrightMessage { font-size: 0.8rem;color:lightgrey; }
 
 
